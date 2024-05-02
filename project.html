@@ -1,0 +1,52 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="project.css">
+    <title>Virtual Study Buddy</title>
+</head>
+<body>
+    <div class="menu">
+    <ul>
+    <li><a href="">Home</a></li>
+    <li><a href="">About us</a></li>
+    <li><a href="Gallery.html">Gallery</a></li>
+    <li><a href="">News</a></li>
+    <li><a href="">Archive</a></li>
+    <li><a href="">Objective</a></li>
+    <li><a href="">Contact</a></li>
+    <li><a href="">FAQ</a></li>
+    </ul>
+    </div>
+   <div class="container">
+        <h1>Welcome to Virtual Study Buddy</h1>
+        <p>Login or Register to connect with study partners, explore subjects, and more.</p>
+        <div class="cta-buttons">
+            <button id="loginButton"><a href="login.html">Login</a></button>
+            <button id="registerButton"><a href="signup.html">Register</a></button>
+        </div>
+        <div class="features">
+            <div class="feature" id="findFriends">
+                <button onclick="navigateTo('findFriends')"><a href="find.html">Find Friends</a></button>
+                <p>Connect with study buddies who share your interests and subjects.</p>
+            </div>
+            <div class="feature" id="messageFriends">
+                <button onclick="navigateTo('messageFriends')"><a href="message.html">Message Friends</a></button>
+                <p>Chat with your study partners in real-time and collaborate effortlessly.</p>
+            </div>
+            <div class="feature" id="findSubjects">
+                <button onclick="navigateTo('findSubjects')">Find Subjects</button>
+                <p>Discover study materials and resources related to your subjects of interest.</p>
+            </div>
+            <div class="feature" id="novelEnthusiasts">
+                <button onclick="navigateTo('novelEnthusiasts')">Novel Enthusiasts</button>
+                <p>Connect with fellow novel enthusiasts for book recommendations and discussions.</p>
+            </div>
+        </div>
+    </div>
+<marquee><h2>You can make new buddies while reading!<h2><marquee>
+    <script src="project.js"></script>
+</body>
+</html>

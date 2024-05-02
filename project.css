@@ -1,0 +1,97 @@
+/* style.css */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+/* Add purple and blueish colors */
+body {
+    background-image: url('https://image.slidesdocs.com/responsive-images/background/light-purple-purple-abstract-nature-water-geometric-powerpoint-background_83674dbac2__960_540.jpg');
+    background-size: cover;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 0 10px;
+    cursor: pointer;
+    background-color: #5e3d92; /* Purple background color */
+    color: #ffffff; /* White text color */
+    border: none;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #483D8B; /* Darker purple on hover */
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.feature {
+    flex: 1;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+    background-color: #fff; /* White background color */
+}
+
+.feature:hover {
+    transform: scale(1.05);
+}
+
+.feature h2 {
+    color: #5e3d92; /* Purple feature title color */
+    cursor: pointer; /* Add pointer cursor to indicate clickability */
+    text-decoration: underline; /* Underline the feature title */
+}
+
+.feature p {
+    color: #333;
+}
+.menu{
+    
+}
+.menu ul{
+    list-style: none;
+}
+.menu ul li{
+border:1px solid black;
+width:130px;
+height:50px;
+text-align:center;
+line-height:50px;
+background-color:purple;
+float:left;
+}
+.menu ul li a{
+    text-decoration:none;
+    color:yellow;
+    display:block;
+    transition:1s;
+}
+.menu ul li a:hover{
+    background-color:darkblue;
+    transform:rotate(360deg);
+}
+ #loginButton {
+    color: whitesmoke; /* Change this to the desired color */
+}
+
+        /* Style for the Register button */
+#registerButton {
+    color: whitesmoke; /* Change this to the desired color */
+}
+.menu a,
+.feature button {
+    text-decoration: none; /* Remove underline */
+    color: white; /* Set text color to white */
+}
