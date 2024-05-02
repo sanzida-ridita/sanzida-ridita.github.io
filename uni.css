@@ -1,0 +1,145 @@
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.menu {
+    background-color: #6a0dad;
+    padding: 15px 0;
+}
+
+.menu ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+.menu ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #6a0dad;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.cta-buttons {
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #6a0dad;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #5c0599;
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.feature {
+    flex: 0 1 calc(50% - 20px);
+    margin: 0 10px 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.feature:hover {
+    transform: translateY(-5px);
+}
+
+.feature button {
+    display: block;
+    margin: 0 auto 15px;
+    padding: 10px 20px;
+}
+
+.feature p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #666;
+}
+
+.marquee {
+    background-color: #f5d76e;
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 16px;
+}
+body {
+    /* Set background image */
+    background-image: url('https://img.freepik.com/premium-photo/purple-yellow-background-with-purple-background-word-love-it_873925-19466.jpg');
+    /* Center and scale the background image */
+    background-position: center;
+    background-size: cover;
+    /* Apply fallback background color */
+    background-color: #f2f2f2; /* Fallback color if the image is not available or not loaded */
+}
+.menu{
+    
+}
+.menu ul{
+    list-style: none;
+}
+.menu ul li{
+border:1px solid black;
+width:125px;
+height:45px;
+text-align:center;
+line-height:50px;
+background-color:purple;
+float:left;
+}
+.menu ul li a{
+    text-decoration:none;
+    color:yellow;
+    display:block;
+    transition:1s;
+}
+.menu ul li a:hover{
+    background-color:darkblue;
+    transform:rotate(360deg);
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="uni.css">
+    <title>Uni-Verse Buddy</title>
+</head>
+<body>
+    <div class="menu">
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About us</a></li>
+            <li><a href="Gallery.html">Gallery</a></li>
+            <li><a href="">News</a></li>
+            <li><a href="">Archive</a></li>
+            <li><a href="">Objective</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">FAQ</a></li>
+            <li><a href="">Profile</a></li>
+        </ul>
+    </div>
+    <div class="container">
+        <h1>Welcome to Uni-Verse Buddy</h1>
+        <p>Login or Register to connect with study partners of different university, explore subjects, enjoy gamification and update yourself.</p>
+        <div class="cta-buttons">
+            <button id="loginButton"><a href="login.html">Login</a></button>
+            <button id="registerButton"><a href="signup.html">Register</a></button>
+        </div>
+        <div class="features">
+            <div class="feature" id="findFriends">
+                <button onclick="navigateTo('findFriends')"><a href="find.html">Find Friends</a></button>
+                <p>Connect with study buddies who share your interests and subjects.</p>
+            </div>
+            <div class="feature" id="messageFriends">
+                <button onclick="navigateTo('messageFriends')"><a href="message.html">Message Friends</a></button>
+                <p>Chat with your study partners in real-time and collaborate effortlessly.</p>
+            </div>
+            <div class="feature" id="findSubjects">
+                <button onclick="navigateTo('findSubjects')"><a href="find.html">Find Subjects</a></button>
+                <p>Discover study materials and resources related to your subjects of interest.</p>
+            </div>
+            <div class="feature" id="gamification">
+                <button onclick="navigateTo('gamification')"><a href="gamification.html">Gamification</a></button>
+                <p>Develop your skill by playing games with your group mate as well as your own</p>
+            </div>
+            <div class="feature" id="novelEnthusiasts">
+                <button onclick="navigateTo('novelEnthusiasts')"><a href="novel.html">Novel Enthusiasts</a></button>
+                <p>Connect with fellow novel enthusiasts for book recommendations and discussions.</p>
+            </div>
+        </div>
+    </div>
+    <marquee><h2>You can make new buddies while reading!</h2></marquee>
+    <script src="uni.js"></script>
+</body>
+</html>
